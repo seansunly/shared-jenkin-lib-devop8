@@ -1,3 +1,3 @@
 ## Note:
 
-this is a  jenkins libraris
+This is the shared Jenkins Library used for the DevOps Shortcourse Gen08 
