@@ -9,5 +9,5 @@ services:
     build: .
     container_name: react-cont
     ports:
-      - "8080:80"        # Map host port 8080 to container port 80
+      - "4000:80"        # Map host port 8080 to container port 80
     restart: unless-stopped
