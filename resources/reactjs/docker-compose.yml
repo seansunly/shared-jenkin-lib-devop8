@@ -1,4 +1,13 @@
+# services:
+#   nginx-svc: 
+#     image: nginx:alpine
+#     container_name: react-cont
+version: "3.8"
+
 services:
-  nginx-svc: 
-    image: nginx:alpine
+  react-app:
+    build: .
     container_name: react-cont
+    ports:
+      - "8080:80"        # Map host port 8080 to container port 80
+    restart: unless-stopped
